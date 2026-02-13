@@ -63,9 +63,10 @@ export default function Home() {
     <div className="min-h-screen flex flex-col font-sans">
       
       {/* 1. Announcement Bar */}
-      <div className="bg-[#1A1A1A] text-white py-2 px-4 text-center text-xs md:text-sm font-bold tracking-wide uppercase sticky top-0 z-50 shadow-md">
-        <span className="animate-pulse text-[#00D93D] mr-2">●</span>
-        Frete Grátis para todo o Brasil - Pagamento Somente na Entrega
+      <div className="bg-[#FF0000] text-white py-3 px-4 text-center text-sm md:text-base font-black tracking-widest uppercase sticky top-0 z-50 shadow-[0_4px_20px_rgba(255,0,0,0.5)]">
+        <span className="inline-block animate-bounce mr-2">⚠️</span>
+        ATENÇÃO: ÚLTIMAS 07 UNIDADES COM FRETE GRÁTIS - PAGUE SÓ NA ENTREGA!
+        <span className="inline-block animate-bounce ml-2">⚠️</span>
       </div>
 
       {/* 2. Hero Section */}
@@ -85,8 +86,8 @@ export default function Home() {
                 Compra 100% Segura
               </div>
               
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] text-slate-900 mb-6">
-                Acabe com <span className="text-red-500 bg-red-50 px-2 rounded-lg decoration-wavy underline decoration-red-300">Rachaduras</span> e Calos nos Pés em Segundos
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-[1.0] text-slate-900 mb-6 uppercase">
+                PARE DE <span className="text-white bg-red-600 px-3 py-1 rotate-[-2deg] inline-block shadow-lg">ESCONDER</span> SEUS PÉS HOJE!
               </h1>
               
               <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
@@ -319,8 +320,8 @@ export default function Home() {
       <Section className="bg-gradient-to-br from-blue-50 to-white">
         <div className="container-custom max-w-4xl">
           <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-slate-100">
-            <div className="bg-[#1A1A1A] text-white p-4 text-center">
-              <span className="font-bold text-lg animate-pulse">🔥 OFERTA POR TEMPO LIMITADO</span>
+            <div className="bg-[#FF0000] text-white p-6 text-center shadow-[0_0_30px_rgba(255,0,0,0.4)]">
+              <span className="font-black text-2xl animate-pulse tracking-tighter">🚨 ÚLTIMA CHANCE - PROMOÇÃO TERMINA EM MINUTOS! 🚨</span>
             </div>
             
             <div className="p-8 md:p-12 text-center">
@@ -339,10 +340,10 @@ export default function Home() {
                     Melhor Preço
                   </div>
                   <span className="block text-slate-400 text-lg line-through md:hidden">De R$ 197,90</span>
-                  <div className="text-5xl md:text-6xl font-black text-slate-900 tracking-tight">
-                    <span className="text-2xl align-top mr-1">R$</span>59<span className="text-2xl">,90</span>
+                  <div className="text-6xl md:text-8xl font-black text-red-600 tracking-tighter drop-shadow-sm">
+                    <span className="text-3xl align-top mr-1">R$</span>59<span className="text-3xl">,90</span>
                   </div>
-                  <p className="text-green-600 font-bold mt-2 text-sm">Frete Grátis Hoje</p>
+                  <p className="text-green-600 font-black mt-2 text-xl animate-bounce uppercase">FRETE GRÁTIS + PAGUE NA ENTREGA!</p>
                 </div>
                 
                 <div className="text-left hidden md:block">
@@ -454,8 +455,8 @@ export default function Home() {
       </footer>
 
       {/* Sticky Mobile CTA */}
-      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-slate-200 shadow-[0_-5px_20px_rgba(0,0,0,0.1)] md:hidden z-50">
-        <CTAButton className="w-full text-sm py-4" text="COMPRAR AGORA - PAGAR NA ENTREGA" icon={false} />
+      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-slate-200 shadow-[0_-10px_30px_rgba(0,0,0,0.2)] md:hidden z-50">
+        <CTAButton className="w-full text-lg py-6 font-black animate-pulse-glow" text="QUERO PAGAR NA ENTREGA AGORA!" icon={true} />
       </div>
 
     </div>
