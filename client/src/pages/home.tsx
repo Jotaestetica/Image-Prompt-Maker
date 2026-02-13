@@ -340,7 +340,7 @@ export default function Home() {
                   </div>
                   <span className="block text-slate-400 text-lg line-through md:hidden">De R$ 197,90</span>
                   <div className="text-5xl md:text-6xl font-black text-slate-900 tracking-tight">
-                    <span className="text-2xl align-top mr-1">R$</span>97<span className="text-2xl">,90</span>
+                    <span className="text-2xl align-top mr-1">R$</span>59<span className="text-2xl">,90</span>
                   </div>
                   <p className="text-green-600 font-bold mt-2 text-sm">Frete Grátis Hoje</p>
                 </div>
